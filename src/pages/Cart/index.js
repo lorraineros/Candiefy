@@ -46,9 +46,9 @@ export const Cart = ({ cartItems, setCartItems }) => {
                   <h3>{item.name}</h3>
                   <p>Price: {item.price} kr.</p>
                   <div className="quantity-controls">
-                    <button onClick={() => decreaseQuantity(item.id)}>-</button>
+                    <button className="symbol" onClick={() => decreaseQuantity(item.id)}>-</button>
                     <p>{item.quantity}</p>
-                    <button onClick={() => increaseQuantity(item.id)}>+</button>
+                    <button className="symbol" onClick={() => increaseQuantity(item.id)}>+</button>
                   </div>
                 </div>
               </div>
