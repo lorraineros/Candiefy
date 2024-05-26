@@ -1,0 +1,104 @@
+.checkout-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.checkout-left {
+  flex: 1;
+  margin: 20px;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-right {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.checkout-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.checkout-table th,
+.checkout-table td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+.checkout-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.checkout-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.checkout-table tr:hover {
+  background-color: #eee;
+}
+
+.checkout-total td {
+  font-weight: bold;
+}
+
+.order-button {
+  background-color: #51a3e3;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 30%;
+}
+
+.order-button:hover {
+  background-color: #458abe;
+}
+
+.order-button:disabled {
+  background-color: #cccccc;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group .error {
+  color: red;
+  font-size: 0.875em;
+  margin-top: 5px;
+}
