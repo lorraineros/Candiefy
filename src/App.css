@@ -2,12 +2,12 @@
 
 body {
   margin: 0;
-  background-color: #ffffff;
+  background: linear-gradient(to right, #d485ea, #51a3e3, #b3f2ba);
   font-family: "Roboto", sans-serif;
 }
 
 .page {
   padding: 100px 200px 50px 200px;
-  margin: 10px;
-  min-height: 65vh;
+  background-color: #ffffff;
+  min-height: 60vh;
 }

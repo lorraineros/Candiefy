@@ -7,6 +7,5 @@
   right: 0;
   height: 100px;
   color: white;
-  background: linear-gradient(to right, #d485ea, #51a3e3, #b3f2ba);
   flex-shrink: 0;
 }
