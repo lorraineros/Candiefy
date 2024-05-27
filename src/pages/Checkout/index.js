@@ -63,7 +63,7 @@ export const Checkout = ({ cartItems, setCartItems }) => {
 
   return (
     <div className="checkout-page">
-      <div className="checkout-left">
+      <div className="checkout-order">
         <h2>Your Order</h2>
         <table className="checkout-table">
           <thead>
@@ -90,7 +90,7 @@ export const Checkout = ({ cartItems, setCartItems }) => {
           </tbody>
         </table>
       </div>
-      <div className="checkout-right">
+      <div className="checkout-info">
       <h2>Shipping Information</h2>
           <form onSubmit={handleSubmit}>
           <div className="form-group">

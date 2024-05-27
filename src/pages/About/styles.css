@@ -6,7 +6,7 @@
 
 .about-info {
   flex: 1;
-  padding-right: 50px;
+  padding: 30px;
 }
 
 .about-info h2 {
@@ -16,7 +16,7 @@
 .contact-form {
   flex: 1;
   margin-top: 30px;
-  padding-left: 20px;
+  padding: 20px;
 }
 
 .contact-form h2 {
@@ -61,4 +61,26 @@ textarea {
 
 .submit-button:disabled {
   background-color: #cccccc;
+}
+
+@media (max-width: 1000px) {
+  .about-page {
+    flex-direction: column;
+  }
+
+  .about-info {
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  .contact-form {
+    flex: 1;
+    margin-top: 30px;
+    padding: 5px;
+  }
+
+  .submit-button {
+    font-size: 13px;
+    width: 25%;
+  }
 }

@@ -11,3 +11,9 @@ body {
   background-color: #ffffff;
   min-height: 60vh;
 }
+
+@media (max-width: 768px) {
+  .page {
+    padding: 100px 20px 50px 20px;
+  }
+}

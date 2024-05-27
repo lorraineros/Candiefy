@@ -36,3 +36,21 @@
   cursor: pointer;
 	border-radius: 5px;
 }
+
+@media (max-width: 768px) {
+	.product {
+		padding: 5px;
+	}
+
+  .product-image {
+		max-width: 60%;
+		height: auto;
+	}
+
+	.product .product-button {
+		height: 40px;
+		max-width: 60%;
+		font-size: 12px;
+		padding: 0;
+	}
+}

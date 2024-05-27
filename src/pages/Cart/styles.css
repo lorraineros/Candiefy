@@ -101,3 +101,29 @@
   color: white;
   background: #51a3e3;
 }
+
+@media (max-width: 768px) {
+  .cart-item img {
+    width: 125px;
+    height: 125px;
+  }
+
+  .continue-button {
+    height: auto;
+    width: 40%;
+    padding: 15px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-right: 15px;
+    color: white;
+    background: #51a3e3;
+  }
+
+  .explore-button {
+    width: 40%;
+    font-size: 14px;
+  }
+  
+}

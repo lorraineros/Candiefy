@@ -22,8 +22,8 @@ export const Navbar = ({ onToggleModal, cartItems }) => {
       <nav className="title"><a href="/">Candiefy</a></nav>
       <ul className="nav-links">
         <li className="nav-link"><a href="/about">About</a></li>
-        <li className="nav-link" onClick={onToggleModal}><MagnifyingGlass size={40}/></li>
-        <li className="nav-link"><a href="/cart"><ShoppingCart size={48} />{totalQuantity > 0 && (
+        <li className="nav-link" onClick={onToggleModal}><MagnifyingGlass className="icon"/></li>
+        <li className="nav-link"><a href="/cart"><ShoppingCart className="icon" />{totalQuantity > 0 && (
               <span className={`cart-badge ${animateBadge ? 'jump' : ''}`}>
                 {totalQuantity}
               </span>)}</a></li>

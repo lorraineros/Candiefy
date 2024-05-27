@@ -95,3 +95,32 @@
   color: #00000084;
   cursor: pointer;
 }
+
+.icon {
+  font-size: 40px;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    gap: 0px;
+    margin: 0;
+  }
+
+  .title {
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: 400;
+  }
+
+  .nav-link {
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    align-items: center;
+    color: white;
+  }
+
+  .icon {
+    font-size: 30px;
+  }
+}
