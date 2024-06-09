@@ -23,7 +23,7 @@ export const Product = ({ id, name, price, img, addToCart }) => {
     <div className="product">
       <a href={`/product/${id}`} className="product-link-wrapper">
         <div>
-          <img alt={name} src={img} className="product-image" />
+          <img alt={name} src={img} className="product-image" loading="lazy" />
           <h3 className="product-name">{name}</h3>
           <p className="product-price">{price} kr.</p>
         </div>
