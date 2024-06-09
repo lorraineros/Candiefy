@@ -2,6 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  max-width: 1490px;
+  margin: 0 auto;
 }
 
 .product-detail-image {
@@ -20,6 +22,7 @@
 
 .product-detail-info .name {
   margin-top: 50px;
+  margin-bottom: 10px;
   font-size: 40px;
   border-bottom: 5px solid #eee;
 }
@@ -32,6 +35,7 @@
 .product-detail-quantity {
   display: flex;
   align-items: center;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
@@ -59,6 +63,7 @@
 
 .product-button {
   margin-top: 20px;
+  margin-bottom: 20px;
   height: 50px;
   width: 150px;
   padding: 10px 20px;
@@ -72,6 +77,7 @@
 
 .ingredients-name {
   border-bottom: 3px solid #eee;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 1000px) {

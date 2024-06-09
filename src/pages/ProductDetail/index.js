@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { PRODUCTS } from '../../products';
 import './styles.css';
-import AddToCartPopup from '../AddToCart';
+import AddToCartPopup from '../../components/AddToCart';
 
 export const ProductDetail = ({ addToCart }) => {
   const { productId } = useParams();

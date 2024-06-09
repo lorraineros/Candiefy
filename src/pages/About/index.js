@@ -43,7 +43,7 @@ export const About = () => {
   return (
     <div className="about-page">
       <div className="about-info">
-        <h1>About Candiefy</h1>
+        <h1 className="about-info-title">About Candiefy</h1>
         <p>At Candiefy, we're passionate about bringing joy to your taste buds with our delightful selection of candies. Our journey began with a simple love for sweets and a desire to share that happiness with others.</p>
         <p>Candiefy was born out of a shared love for candies and a vision to create a place where everyone could find their favorite treats. Whether it's nostalgic classics or innovative flavors, we believe that every candy tells a story and brings people together.</p>
         <p>We'd love to hear from you! Have a question or feedback? Feel free to reach out to us. Your satisfaction is our top priority, and we're here to ensure your Candiefy experience is nothing short of amazing.</p>

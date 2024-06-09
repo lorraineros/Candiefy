@@ -8,7 +8,7 @@ import { SearchModal } from "./components/SearchModal";
 import { Shop } from "./pages/Shop";
 import { About } from "./pages/About";
 import { Cart } from "./pages/Cart";
-import { ProductDetail } from "./components/ProductDetail";
+import { ProductDetail } from "./pages/ProductDetail";
 import { Checkout } from './pages/Checkout';
 
 function App() {

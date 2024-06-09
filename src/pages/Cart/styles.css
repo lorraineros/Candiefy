@@ -97,6 +97,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin: 10px;
   font-size: 16px;
   color: white;
   background: #51a3e3;
@@ -109,6 +110,7 @@
   }
 
   .continue-button {
+    margin-top: 10px;
     height: auto;
     width: 40%;
     padding: 15px 5px;
@@ -122,6 +124,7 @@
   }
 
   .explore-button {
+    margin-top: 10px;
     width: 40%;
     font-size: 14px;
   }

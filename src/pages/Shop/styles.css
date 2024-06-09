@@ -1,3 +1,13 @@
+.shop {
+  max-width: 1490px;
+  margin: 0 auto;
+}
+
+.shop-title {
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
 .shop p {
   margin-bottom: 20px;
 }
